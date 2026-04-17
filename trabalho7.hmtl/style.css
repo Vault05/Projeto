@@ -1,0 +1,141 @@
+.cabecario {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-content: center;
+    align-items: center;
+}
+
+header h2, header p, nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.cabecario p, .info p, nav a, .textin p, .box2 p {
+    color: gray;
+}
+
+.box1{
+    background: linear-gradient(to right, rgb(13, 22, 76), rgb(48, 77, 243) );
+    display: flex;
+    padding: 20px;
+}
+
+.info {
+    width: 60%;
+    max-width: 60%;
+}
+
+.info h1 {
+    font-size: x-large;
+}
+
+.info h1{
+    color: white;
+}
+
+.espc1, .espc2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.proj {
+    width: 40%;
+    max-width: 40%;
+    height: 220px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.detalhes1, .detalhes2 {
+    width: 80%;
+    max-width: 80%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 230px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    background-color: gainsboro;
+}
+
+.buttons {
+    margin-top: 150px;
+    display: flex   ;
+    gap: 50px;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: rgb(254, 159, 34);
+    padding: 5px;
+    color: black;
+}
+
+.button1, .button2{
+    align-content: center;
+    height: 30px;
+    padding: 5px;
+    font-size: large;
+    border-radius: 8px;
+}    
+
+.button2 {
+    border: 1px solid white;
+    color: white;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+.textin {
+    text-align: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.saiba, .planos, .group {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 300px;
+    max-width: 300px;
+    height: fit-content;
+    background-color: white;
+}
+
+.saiba img, .planos img, .group img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.saiba a, .planos a, .group a {
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+
+.estrutura {
+    display: flex;
+    justify-self: center;
+    padding: 20px;
+    background-color: gainsboro;
+}
