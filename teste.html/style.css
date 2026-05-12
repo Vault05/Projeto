@@ -1,0 +1,11 @@
+/*Vai tomar no */
+.titulo {
+    background-color: darksalmon;
+    text-align: center;
+    height: 50px;
+}
+.mesa {
+    background-color: antiquewhite;
+    border-radius: top-center;
+    align-self: center;
+}
